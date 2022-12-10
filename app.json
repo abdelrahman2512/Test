@@ -1,0 +1,84 @@
+{
+  "name": "Rio Music",
+  "logo": "https://telegra.ph/file/89cbc8b8760b6abff430f.jpg",
+  "description": "A SuperFast VC Player bot to play songs in Telegram Video Chat. Powered by PyTgCalls.",
+  "keywords": ["music", "voicechat", "telegram", "fallen"],
+  "repository": "https://github.com/RioProjectX/Rio-MusicV3",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "- ضع كود البايروجرام .",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "- ضع توكن البوت .",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "- ضع اسم للبوت .",
+      "required": false,
+      "value": ""
+    },
+    "BOT_USERNAME": {
+      "description": "- ضع يوزر البوت بدون @ .",
+      "required": false,
+      "value": ""
+    },
+    "API_ID": {
+      "description": "- ضع ال ايبي ايدي my.telegram.org/apps .",
+      "required": false
+    },
+    "API_HASH": {
+      "description": "- ضع ال ايبي هاش my.telegram.org/apps .",
+      "required": false
+    },
+    "OWNER_ID": {
+      "description": "- ضع ايدي المالك .",
+      "required": true,
+      "value": "1"
+    },
+    "SUPPORT_GROUP": {
+      "description": "- ضع يوزر جروب الدعم بدون @ .",
+      "required": false,
+      "value": "riogroupsupport"
+    },
+    "SUDO_USERS": {
+      "description": "- ضع ايدي المطور .",
+      "required": true,
+      "value": "1"
+    },
+    "START_IMG": {
+      "description": "- ضع لينك صوره البدايه .",
+      "required": false
+    },
+    "PING_IMG": {
+      "description": "- ضع لينك صوره البينج .",
+      "required": false
+    },
+    "PMPERMIT": {
+      "description": "If you want to notify users who pm to assistant account that it's the assistant account of your bot so don't spam messages there (ENABLE/DISABLE).",
+      "required": false,
+      "value": "ENABLE"
+    },
+    "DURATION_LIMIT": {
+      "description": "Max audio duration limit for downloads (minutes).",
+      "required": false,
+      "value": "90"
+    },
+    "ASSISTANT_NAME": {
+       "description": "قم بوضع يوزر الحساب المساعد بدون علامة @",
+       "required": true,
+       "value": ""
+    },
+    "UPDATES_CHANNEL": {
+       "description": "ضع هنا يوزر قناتك بدون علامة @",
+       "required": true,
+       "value": "APP_YOUTUBE"
+    },
+    "OWNER_NAME": {
+        "description": "ضع هنا يوزر المطور بدون علامة @",
+        "required": true,
+        "value": "VR_NJ"
+    }
+  }
+}
